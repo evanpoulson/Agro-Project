@@ -1,0 +1,38 @@
+ata/
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.json
+
+# Model files
+models/*.pkl
+models/*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.pyc
+
+# Environment
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+
+# Credentials
+credentials.json
+*_credentials.py
